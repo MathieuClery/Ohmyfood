@@ -1,0 +1,29 @@
+/* -------------------------*/
+/* ==   MENTIONS LEGALES    */
+/*--------------------------*/
+
+.mentions-content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    padding: 2em 1em 2em 0;
+    header {
+        background-color: $background-color;
+        height: 5em;
+        margin-bottom: 0em;
+    }
+    section {
+        margin-bottom: 2em;
+    }
+    a {
+        color: $primary-color;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+    li {
+        list-style: circle;
+    }
+}

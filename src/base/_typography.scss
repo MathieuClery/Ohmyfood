@@ -1,0 +1,12 @@
+/* --------------------*/
+/* ==   TYPOGRAPHY     */
+/*---------------------*/
+html {
+    font-size: 16px;
+    @include extra_small_device {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+    @include large_device {
+        font-size: 22px;
+    } 
+}

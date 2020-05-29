@@ -1,0 +1,65 @@
+/* --------------*/
+/* ==   MENU3    */
+/*---------------*/
+
+.menu__content--3 {
+    background-color: $menu3-color--background;
+    font-family: $menu3-typography--content;
+    padding: 5em 2em;
+    @include small_device {
+        padding: 7em 4em 12em 4em;
+    }
+    h3 {
+        background: linear-gradient(to right, $menu3-color--1, $menu3-color--3);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        font-family: $menu3-typography--title;
+        font-size: 1.8em;
+        text-align: center;
+        @include small_device {
+            margin-bottom: 1em;
+            font-size: 3.4em;
+        }
+    }
+    h4 {
+        font-size: 1.2em;
+        margin-bottom: 2.6em;
+        @include small_device {
+            font-size: 1.8em;
+        }
+    }
+    ul  {
+        margin-bottom: 1.7em;
+        font-size: 1em;
+    }
+    section:nth-of-type(1) {
+        h4::before, 
+        h4::after, 
+        span:hover::after {
+            background: $menu3-color--1;
+        }
+    }
+    section:nth-of-type(2) {
+        h4::before, 
+        h4::after, 
+        span:hover::after {
+            background:$menu3-color--2;
+        }
+    }
+    section:nth-of-type(3) {
+        h4::before, 
+        h4::after, 
+        span:hover::after {
+            background: $menu3-color--3;
+        }
+    }
+    .starter-dish__content, 
+    .dish__content, 
+    .dessert__content {
+        @include small_device {
+            padding: 0 5em;
+        }
+    }
+}

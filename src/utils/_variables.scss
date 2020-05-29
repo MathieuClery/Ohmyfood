@@ -1,0 +1,45 @@
+$breakpoints: (extra_small: 20em,small: 28.625em, medium: 58em, large: 86em, extra_large: 116em);
+
+$primary-typography : 'Roboto', arial, sans-serif;
+$logo-typography : 'Noto Sans', 'Roboto', arial, sans-serif;
+$menu1-typography--title : 'Devonshire', cursive; 
+$menu1-typography--text : 'Cabin', sans-serif;
+$menu1-typography--content : 'Caveat', cursive;
+$menu2-typography--title : 'Croissant One', cursive; 
+$menu2-typography--text : 'Bitter', serif;
+$menu2-typography--content : 'Gelasio', serif;
+$menu3-typography--title : 'Dancing Script', cursive;
+$menu3-typography--text : 'Kalam', cursive;
+$menu3-typography--content : 'Courgette', cursive;
+$menu4-typography--title : 'Kaushan Script', cursive; 
+$menu4-typography--text : $menu3-typography--text;
+$menu4-typography--content : $menu3-typography--content; 
+
+
+$primary-color : hsla(162, 28%, 48%, 1);
+$secondary-color : hsla(44, 97%, 63%, 1);
+$typography-color : hsla(207, 100%, 8%, 1);
+$background-color : hsla(0, 0%, 100%, 1);
+$shadow-color : hsla(207, 100%, 8%, 0.6);
+$box-shadow-color : 0 1px 2px rgba(0,0,0,0.07), 
+                   0 2px 4px rgba(0,0,0,0.07), 
+                   0 4px 8px rgba(0,0,0,0.07), 
+                   0 8px 16px rgba(0,0,0,0.07),
+                   0 16px 32px rgba(0,0,0,0.07), 
+                   0 32px 64px rgba(0,0,0,0.07);
+$note-color--1 : hsla(358, 84%, 65%, 1);
+$note-color--2 : hsla(17, 89%, 69%, 1);
+$menu1-color--background : hsla(7, 85%, 92%, 1);
+$menu1-color :hsla(351, 53%, 16%, 1);
+$menu2-color--background : hsla(306, 100%, 98%, 1);
+$menu2-color--1 : hsla(33, 84%, 42%, 1);
+$menu2-color--2 : hsla(312, 25%, 53%, 1);
+$menu2-color--3 : hsla(256, 56%, 55%, 1);
+$menu3-color--background : hsla(180, 6%, 93%, 1); 
+$menu3-color--1 : hsla(230, 98%, 44%, 1);
+$menu3-color--2 : hsla(213, 95%, 49%, 1);
+$menu3-color--3 : hsla(206, 95%, 56%, 1);
+$menu4-color--1 : hsla(117, 43%, 41%, 1);
+$menu4-color--2 : hsla(104, 45%, 54%, 1);
+$menu4-color--3 : hsla(90, 90%, 75%, 1);
+

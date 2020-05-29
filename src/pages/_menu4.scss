@@ -1,0 +1,50 @@
+/* --------------*/
+/* ==   MENU4    */
+/*---------------*/
+
+.menu-content--4 {
+    font-family: $menu4-typography--content;
+    padding: 5em 2em;
+    @include small_device {
+        padding: 7em 4em 12em 4em;
+    }
+    h3 {
+        background: linear-gradient(to right, $menu4-color--1, $menu4-color--3);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        font-family: $menu4-typography--title;
+        font-size: 1.8em;
+        text-align: center;
+        @include small_device {
+            margin-bottom: 1em;
+            font-size: 3.4em;
+        }
+    }
+    h4 {
+        font-size: 1.2em;
+        margin-bottom: 2.6em;
+        @include small_device {
+            font-size: 1.8em;
+        }
+    }
+    ul  {
+       margin-bottom: 1.7em;
+       font-size: 1em;
+    }
+    section {
+      h4::before, 
+      h4::after, 
+      span:hover::after {
+            background: $menu4-color--1;
+        }
+    }
+    .starter-dish__content, 
+    .dish__content, 
+    .dessert__content {
+        @include small_device {
+            padding: 0 5em;
+        }
+    }
+}
