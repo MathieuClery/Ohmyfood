@@ -19,10 +19,17 @@
         text-align: center;
         @include small_device {
             margin-bottom: 1em;
-            font-size: 3.4em;
+            font-size: 2.5em;
+        }
+        @include large_device {
+            padding: 3.4em;
         }
     }
-    h3 {
+    header {
+        background-color: $menu4-color--background;
+        margin: 0;
+    }
+    .menu__header--title {
         font-size: 1.2em;
         margin-bottom: 2.6em;
         @include small_device {
@@ -34,8 +41,8 @@
        font-size: 1em;
     }
     section {
-      h3::before, 
-      h3::after, 
+      .menu__header--title::before, 
+      .menu__header--title::after, 
       span:hover::after {
             background: $menu4-color--1;
         }
@@ -45,6 +52,7 @@
     .dessert__content {
         @include small_device {
             padding: 0 5em;
+            margin-bottom: 0;
         }
     }
 }
