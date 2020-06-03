@@ -20,10 +20,20 @@
         text-align: center;
         @include small_device {
           margin-bottom: 2em;
-          font-size: 2.5em;
+          font-size: 2em;
+        }
+        @include large_device {
+            padding: 3.4em;
         }
     }
-    h3 {
+    header {
+        background-color: $menu2-color--background;
+        margin-bottom: 0;
+        @include medium_device {
+            margin-bottom: 3em;
+        }        
+    }
+    .menu__header--title {
         font-size: 1.2em;
         font-weight: 500;
         @include small_device {
@@ -44,16 +54,16 @@
     }
     section:nth-of-type(2) {
         color: $menu2-color--2;
-        h3::before, 
-        h3::after, 
+        .menu__header--title::before, 
+        .menu__header--title::after, 
         span:hover::after {
             background: $menu2-color--2;
         }
     }
     section:nth-of-type(3) {
         color: $menu2-color--3;
-        h3::before,
-        h3::after,
+        .menu__header--title::before,
+        .menu__header--title::after,
         span:hover::after {
           background: $menu2-color--3;
       }
@@ -63,6 +73,7 @@
   .dessert__content {
       @include small_device {
           padding: 0 5em;
+          margin-bottom: 0;
       }
   }
 }
