@@ -9,7 +9,7 @@
     @include small_device {
         padding: 7em 4em 12em 4em;
     }
-    h3 {
+    p {
         background: linear-gradient(to right, $menu3-color--1, $menu3-color--3);
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -23,7 +23,7 @@
             font-size: 3.4em;
         }
     }
-    h4 {
+    h3 {
         font-size: 1.2em;
         margin-bottom: 2.6em;
         @include small_device {
@@ -35,22 +35,22 @@
         font-size: 1em;
     }
     section:nth-of-type(1) {
-        h4::before, 
-        h4::after, 
+        h3::before, 
+        h3::after, 
         span:hover::after {
             background: $menu3-color--1;
         }
     }
     section:nth-of-type(2) {
-        h4::before, 
-        h4::after, 
+        h3::before, 
+        h3::after, 
         span:hover::after {
             background:$menu3-color--2;
         }
     }
     section:nth-of-type(3) {
-        h4::before, 
-        h4::after, 
+        h3::before, 
+        h3::after, 
         span:hover::after {
             background: $menu3-color--3;
         }
