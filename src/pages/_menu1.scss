@@ -6,7 +6,7 @@
     background-color: $menu1-color--background;
     color: $typography-color;
     font-family: $menu1-typography--content;
-    padding: 5em;
+    padding: 5em 2em;
     .fa-music {
         background: linear-gradient(to right, $note-color--1, $note-color--2);
         -webkit-background-clip: text;
@@ -23,46 +23,59 @@
     p {
         font-size: 2.2em;
         @include small_device {
-          font-size: 3.5em;
+            font-size: 2.5em;
         }
     }
     p,
     .subtitle__footer {
         font-family: $menu1-typography--title;
-  }
-    h3 {
-        font-size: 1.5em;
+        }
+    header {
+        background-color: $menu1-color--background;
+        margin: 0;
+    }
+    .menu__header--title {
+        font-size: 1.5em;       
         @include small_device {
             font-size: 2.2em;
       }
    }
-    h3::before, 
-    h3::after, 
+   .menu__header--title::before, 
+   .menu__header--title::after, 
     span:hover::after {
         background: $menu1-color;
     }
     .subtitle__footer {
-        font-size: 2em;
+        font-size: 1.5em;
         @include small_device {
-            font-size: 3em;
+            font-size: 2em;
         }
     }
     ul {
-        font-size: 1em;
+        font-size: 1.1em;
         margin-bottom: 1em;
         @include small_device {
             font-size: 1.5em;
+        }
+    }
+    .starter-dish__content, 
+    .dish__content, 
+    .dessert__content {
+        @include small_device {
+            padding: 0 5em;
+            margin-bottom: 0;
         }
     }
     .menu__content--footer {
         align-items: center;
         display: flex;
         justify-content: center;
+        margin-bottom: 1em;
         .fa-music {
-            font-size: 2em;
+            font-size: 1.5em;
             margin-right: .7em;
             @include small_device {
-                font-size: 3em;
+                font-size: 2em;
             }
         }
     }
