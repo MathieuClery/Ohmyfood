@@ -20,28 +20,28 @@
             font-size: 5em;
         }
     }
-    h3 {
+    p {
         font-size: 2.2em;
         @include small_device {
           font-size: 3.5em;
         }
     }
-    h3,
-    h5 {
+    p,
+    .subtitle__footer {
         font-family: $menu1-typography--title;
   }
-    h4 {
+    h3 {
         font-size: 1.5em;
         @include small_device {
             font-size: 2.2em;
       }
    }
-    h4::before, 
-    h4::after, 
+    h3::before, 
+    h3::after, 
     span:hover::after {
         background: $menu1-color;
     }
-    h5 {
+    .subtitle__footer {
         font-size: 2em;
         @include small_device {
             font-size: 3em;
