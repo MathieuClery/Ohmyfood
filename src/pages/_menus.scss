@@ -10,7 +10,6 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 6.5em;
-        max-width: 120em;
         @include medium_device {
             margin-bottom: 12em;
         }    
@@ -34,39 +33,50 @@
             display: flex;
             flex-direction: column;
             width: 96vw;
-            padding: 0;
+            padding: 0.5em;
+            @include small_device {
+                padding: 1em;
+            }
             @include large_device {
                 width: 65vw;
-                padding: 0 4em; 
+                padding: 0 2em; 
             }
             @include extra_large_device {
-                max-width: 60vw;
+                max-width: 50vw;
             }
             &--title {
                 align-items: center;
                 display: flex;
                 flex-direction: column;
-                margin: 4em 0;
+                margin: 3em 0;
                 text-align: center;
-                h3 {
+                p {
                     padding: 0 1.5em;
                 }
             }
             section {
-                margin-bottom: 4em;
+                margin-bottom: 0;
+                @include medium_device {
+                    margin-bottom: 2em;
+                } 
             }
         }
         ul {
             display: flex;
-            justify-content: space-between;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            li {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2em;
+            }
             .price {
-                padding-left: 3em;
-                padding-right: 2em;
+                margin-left: 2em;
             }
         }
     }
 }
-h4 {
+.menu__header--title {
     align-items: center;
     display: flex;
     justify-content: center;
