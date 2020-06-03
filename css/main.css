@@ -296,13 +296,14 @@ footer {
   @media screen and (min-width: 58em) {
     /* line 5, ../src/pages/_index.scss */
     .home-content {
-      padding: 7em 0; } }
+      padding: 5em 0; } }
   @media screen and (min-width: 116em) {
     /* line 5, ../src/pages/_index.scss */
     .home-content {
-      max-width: 90vw; } }
+      width: 75vw;
+      margin: auto; } }
 
-/* line 16, ../src/pages/_index.scss */
+/* line 17, ../src/pages/_index.scss */
 .menu-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,7 +313,11 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  /* line 20, ../src/pages/_index.scss */
+  @media screen and (min-width: 116em) {
+    /* line 17, ../src/pages/_index.scss */
+    .menu-links {
+      max-width: 70em; } }
+  /* line 24, ../src/pages/_index.scss */
   .menu-links .menu-links__item {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -330,40 +335,40 @@ footer {
     overflow: hidden;
     width: 18em; }
     @media screen and (min-width: 28.625em) {
-      /* line 20, ../src/pages/_index.scss */
+      /* line 24, ../src/pages/_index.scss */
       .menu-links .menu-links__item {
         height: 27em;
         width: 21em; } }
     @media screen and (min-width: 86em) {
-      /* line 20, ../src/pages/_index.scss */
+      /* line 24, ../src/pages/_index.scss */
       .menu-links .menu-links__item {
         height: 40em;
         width: 30em;
         margin-bottom: 7em; } }
-    /* line 38, ../src/pages/_index.scss */
+    /* line 42, ../src/pages/_index.scss */
     .menu-links .menu-links__item.menu1 {
       background-color: #fcddd9; }
-    /* line 41, ../src/pages/_index.scss */
+    /* line 45, ../src/pages/_index.scss */
     .menu-links .menu-links__item.menu2 {
       background-color: #fff5fe; }
-    /* line 44, ../src/pages/_index.scss */
+    /* line 48, ../src/pages/_index.scss */
     .menu-links .menu-links__item.menu3 {
       background-color: #eceeee; }
-    /* line 47, ../src/pages/_index.scss */
+    /* line 51, ../src/pages/_index.scss */
     .menu-links .menu-links__item a {
       cursor: pointer;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       text-decoration: none; }
-      /* line 51, ../src/pages/_index.scss */
+      /* line 55, ../src/pages/_index.scss */
       .menu-links .menu-links__item a .menu-links__item--fade {
         transition: all .4s;
         -webkit-transition: all .4s;
         -moz-transition: all .4s;
         -ms-transition: all .4s;
         -o-transition: all .4s; }
-      /* line 58, ../src/pages/_index.scss */
+      /* line 62, ../src/pages/_index.scss */
       .menu-links .menu-links__item a:hover .menu-links__item--fade {
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
@@ -371,10 +376,10 @@ footer {
         -ms-transform: scale(1.1);
         -o-transform: scale(1.1);
         opacity: .6; }
-      /* line 66, ../src/pages/_index.scss */
+      /* line 70, ../src/pages/_index.scss */
       .menu-links .menu-links__item a .menu-links__item--fade {
         text-align: center; }
-        /* line 68, ../src/pages/_index.scss */
+        /* line 72, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .fa-music {
           background: -webkit-gradient(linear, left top, right top, from(#f15b60), to(#f6916a));
           background: linear-gradient(to right, #f15b60, #f6916a);
@@ -383,28 +388,28 @@ footer {
           -webkit-text-fill-color: transparent;
           -moz-text-fill-color: transparent;
           font-size: 2.5em; }
-        /* line 76, ../src/pages/_index.scss */
+        /* line 80, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu1__title {
           font-family: "Devonshire", cursive;
           font-size: 2.5em;
           margin-bottom: 1em;
           color: #3e131a; }
           @media screen and (min-width: 28.625em) {
-            /* line 76, ../src/pages/_index.scss */
+            /* line 80, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu1__title {
               font-size: 3em;
               margin-bottom: 1.5em; } }
-        /* line 86, ../src/pages/_index.scss */
+        /* line 90, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu1__text {
           font-family: "Cabin", sans-serif;
-          font-size: 3em;
+          font-size: 1.8em;
           text-transform: uppercase;
           color: #3e131a; }
           @media screen and (min-width: 28.625em) {
-            /* line 86, ../src/pages/_index.scss */
+            /* line 90, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu1__text {
-              font-size: 3.5em; } }
-        /* line 95, ../src/pages/_index.scss */
+              font-size: 2.5em; } }
+        /* line 99, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu2__title {
           background: -webkit-gradient(linear, left top, right top, from(#c57411), to(#6e4ccd));
           background: linear-gradient(to right, #c57411, #6e4ccd);
@@ -417,22 +422,22 @@ footer {
           margin-bottom: 3.3em;
           margin-top: 2em; }
           @media screen and (min-width: 28.625em) {
-            /* line 95, ../src/pages/_index.scss */
+            /* line 99, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu2__title {
               font-size: 1.6em;
               margin-bottom: 3.8em;
               margin-top: 1.5em; } }
-        /* line 111, ../src/pages/_index.scss */
+        /* line 115, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu2__text {
           color: #c57411;
           font-family: "Bitter", serif;
-          font-size: 3em;
+          font-size: 1.8em;
           font-weight: 600; }
           @media screen and (min-width: 28.625em) {
-            /* line 111, ../src/pages/_index.scss */
+            /* line 115, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu2__text {
-              font-size: 3.5em; } }
-        /* line 120, ../src/pages/_index.scss */
+              font-size: 2.5em; } }
+        /* line 124, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu3__title {
           background: -webkit-gradient(linear, left top, right top, from(#0227de), to(#249df9));
           background: linear-gradient(to right, #0227de, #249df9);
@@ -444,20 +449,20 @@ footer {
           font-size: 2em;
           margin-bottom: 2em; }
           @media screen and (min-width: 28.625em) {
-            /* line 120, ../src/pages/_index.scss */
+            /* line 124, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu3__title {
               font-size: 2.5em;
               margin-bottom: 2.5em; } }
-        /* line 134, ../src/pages/_index.scss */
+        /* line 138, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu3__text {
           color: #0671f4;
           font-family: "Kalam", cursive;
-          font-size: 3em; }
+          font-size: 2em; }
           @media screen and (min-width: 28.625em) {
-            /* line 134, ../src/pages/_index.scss */
+            /* line 138, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu3__text {
-              font-size: 3.5em; } }
-        /* line 142, ../src/pages/_index.scss */
+              font-size: 2.5em; } }
+        /* line 146, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu4__title {
           background: -webkit-gradient(linear, left top, right top, from(#40963c), to(#bff986));
           background: linear-gradient(to right, #40963c, #bff986);
@@ -469,19 +474,19 @@ footer {
           font-size: 2em;
           margin-bottom: 2em; }
           @media screen and (min-width: 28.625em) {
-            /* line 142, ../src/pages/_index.scss */
+            /* line 146, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu4__title {
               font-size: 2.5em;
               margin-bottom: 2.5em; } }
-        /* line 156, ../src/pages/_index.scss */
+        /* line 160, ../src/pages/_index.scss */
         .menu-links .menu-links__item a .menu-links__item--fade .menu4__text {
           color: #71be55;
           font-family: "Kalam", cursive;
-          font-size: 3em; }
+          font-size: 2em; }
           @media screen and (min-width: 28.625em) {
-            /* line 156, ../src/pages/_index.scss */
+            /* line 160, ../src/pages/_index.scss */
             .menu-links .menu-links__item a .menu-links__item--fade .menu4__text {
-              font-size: 3.5em; } }
+              font-size: 2.5em; } }
 
 /* ---------------------------*/
 /* ==   MENUS GLOBAL ITEMS    */
@@ -506,13 +511,12 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 6.5em;
-    max-width: 120em; }
+    margin-bottom: 6.5em; }
     @media screen and (min-width: 58em) {
       /* line 8, ../src/pages/_menus.scss */
       .menu .menu__container {
         margin-bottom: 12em; } }
-    /* line 17, ../src/pages/_menus.scss */
+    /* line 16, ../src/pages/_menus.scss */
     .menu .menu__container .menu__title {
       font-size: 1.6em;
       font-weight: 500;
@@ -521,15 +525,15 @@ footer {
       text-align: center;
       text-shadow: 1px 1px 1px rgba(0, 22, 41, 0.6); }
       @media screen and (min-width: 28.625em) {
-        /* line 17, ../src/pages/_menus.scss */
+        /* line 16, ../src/pages/_menus.scss */
         .menu .menu__container .menu__title {
           font-size: 1.8em; } }
       @media screen and (min-width: 86em) {
-        /* line 17, ../src/pages/_menus.scss */
+        /* line 16, ../src/pages/_menus.scss */
         .menu .menu__container .menu__title {
-          margin-top: 1.5em;
-          font-size: 4em; } }
-    /* line 32, ../src/pages/_menus.scss */
+          margin-top: 1em;
+          font-size: 2.5em; } }
+    /* line 31, ../src/pages/_menus.scss */
     .menu .menu__container .menu__content {
       -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
               box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
@@ -541,13 +545,21 @@ footer {
           -ms-flex-direction: column;
               flex-direction: column;
       width: 96vw;
-      padding: 0; }
-      @media screen and (min-width: 86em) {
-        /* line 32, ../src/pages/_menus.scss */
+      padding: 0.5em; }
+      @media screen and (min-width: 28.625em) {
+        /* line 31, ../src/pages/_menus.scss */
         .menu .menu__container .menu__content {
-          width: 80vw;
-          padding: 0 4em; } }
-      /* line 42, ../src/pages/_menus.scss */
+          padding: 1em; } }
+      @media screen and (min-width: 86em) {
+        /* line 31, ../src/pages/_menus.scss */
+        .menu .menu__container .menu__content {
+          width: 65vw;
+          padding: 0 2em; } }
+      @media screen and (min-width: 116em) {
+        /* line 31, ../src/pages/_menus.scss */
+        .menu .menu__container .menu__content {
+          max-width: 50vw; } }
+      /* line 47, ../src/pages/_menus.scss */
       .menu .menu__container .menu__content--title {
         -webkit-box-align: center;
             -ms-flex-align: center;
@@ -559,29 +571,44 @@ footer {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        margin: 4em 0;
+        margin: 3em 0;
         text-align: center; }
-        /* line 48, ../src/pages/_menus.scss */
-        .menu .menu__container .menu__content--title h3 {
+        /* line 53, ../src/pages/_menus.scss */
+        .menu .menu__container .menu__content--title p {
           padding: 0 1.5em; }
-      /* line 52, ../src/pages/_menus.scss */
+      /* line 57, ../src/pages/_menus.scss */
       .menu .menu__container .menu__content section {
-        margin-bottom: 4em; }
-    /* line 56, ../src/pages/_menus.scss */
+        margin-bottom: 0; }
+        @media screen and (min-width: 58em) {
+          /* line 57, ../src/pages/_menus.scss */
+          .menu .menu__container .menu__content section {
+            margin-bottom: 2em; } }
+    /* line 64, ../src/pages/_menus.scss */
     .menu .menu__container ul {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
-      /* line 59, ../src/pages/_menus.scss */
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      /* line 68, ../src/pages/_menus.scss */
+      .menu .menu__container ul li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 2em; }
+      /* line 73, ../src/pages/_menus.scss */
       .menu .menu__container ul .price {
-        padding-left: 3em;
-        padding-right: 2em; }
+        margin-left: 2em; }
 
-/* line 66, ../src/pages/_menus.scss */
-h4 {
+/* line 79, ../src/pages/_menus.scss */
+.menu__header--title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -592,33 +619,33 @@ h4 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 1.5em; }
-  /* line 71, ../src/pages/_menus.scss */
-  h4::before, h4::after {
+  /* line 84, ../src/pages/_menus.scss */
+  .menu__header--title::before, .menu__header--title::after {
     content: "";
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
     height: .2em; }
     @media screen and (min-width: 58em) {
-      /* line 71, ../src/pages/_menus.scss */
-      h4::before, h4::after {
+      /* line 84, ../src/pages/_menus.scss */
+      .menu__header--title::before, .menu__header--title::after {
         margin-right: .4em; } }
-  /* line 80, ../src/pages/_menus.scss */
-  h4::before {
+  /* line 93, ../src/pages/_menus.scss */
+  .menu__header--title::before {
     margin-right: 1em; }
     @media screen and (min-width: 58em) {
-      /* line 80, ../src/pages/_menus.scss */
-      h4::before {
+      /* line 93, ../src/pages/_menus.scss */
+      .menu__header--title::before {
         margin-right: .7em; } }
-  /* line 86, ../src/pages/_menus.scss */
-  h4::after {
+  /* line 99, ../src/pages/_menus.scss */
+  .menu__header--title::after {
     margin-left: 1em; }
     @media screen and (min-width: 58em) {
-      /* line 86, ../src/pages/_menus.scss */
-      h4::after {
+      /* line 99, ../src/pages/_menus.scss */
+      .menu__header--title::after {
         margin-left: .7em; } }
-  /* line 92, ../src/pages/_menus.scss */
-  h4 span::after {
+  /* line 105, ../src/pages/_menus.scss */
+  .menu__header--title span::after {
     content: "";
     display: block;
     height: .1em;
@@ -629,8 +656,8 @@ h4 {
     -ms-transition: width .5s;
     -o-transition: width .5s;
     width: 0; }
-  /* line 104, ../src/pages/_menus.scss */
-  h4 span:hover::after {
+  /* line 117, ../src/pages/_menus.scss */
+  .menu__header--title span:hover::after {
     width: 100%; }
 
 /* --------------*/
@@ -641,7 +668,7 @@ h4 {
   background-color: #fcddd9;
   color: #001629;
   font-family: "Caveat", cursive;
-  padding: 5em; }
+  padding: 5em 2em; }
   /* line 10, ../src/pages/_menu1.scss */
   .menu__content--1 .fa-music {
     background: -webkit-gradient(linear, left top, right top, from(#f15b60), to(#f6916a));
@@ -658,44 +685,55 @@ h4 {
       .menu__content--1 .menu__content--title > .fa-music {
         font-size: 5em; } }
   /* line 23, ../src/pages/_menu1.scss */
-  .menu__content--1 h3 {
+  .menu__content--1 p {
     font-size: 2.2em; }
     @media screen and (min-width: 28.625em) {
       /* line 23, ../src/pages/_menu1.scss */
-      .menu__content--1 h3 {
-        font-size: 3.5em; } }
+      .menu__content--1 p {
+        font-size: 2.5em; } }
   /* line 29, ../src/pages/_menu1.scss */
-  .menu__content--1 h3,
-  .menu__content--1 h5 {
+  .menu__content--1 p,
+  .menu__content--1 .subtitle__footer {
     font-family: "Devonshire", cursive; }
   /* line 33, ../src/pages/_menu1.scss */
-  .menu__content--1 h4 {
+  .menu__content--1 header {
+    background-color: #fcddd9;
+    margin: 0; }
+  /* line 37, ../src/pages/_menu1.scss */
+  .menu__content--1 .menu__header--title {
     font-size: 1.5em; }
     @media screen and (min-width: 28.625em) {
-      /* line 33, ../src/pages/_menu1.scss */
-      .menu__content--1 h4 {
+      /* line 37, ../src/pages/_menu1.scss */
+      .menu__content--1 .menu__header--title {
         font-size: 2.2em; } }
-  /* line 39, ../src/pages/_menu1.scss */
-  .menu__content--1 h4::before,
-  .menu__content--1 h4::after,
+  /* line 43, ../src/pages/_menu1.scss */
+  .menu__content--1 .menu__header--title::before,
+  .menu__content--1 .menu__header--title::after,
   .menu__content--1 span:hover::after {
     background: #3e131a; }
-  /* line 44, ../src/pages/_menu1.scss */
-  .menu__content--1 h5 {
-    font-size: 2em; }
+  /* line 48, ../src/pages/_menu1.scss */
+  .menu__content--1 .subtitle__footer {
+    font-size: 1.5em; }
     @media screen and (min-width: 28.625em) {
-      /* line 44, ../src/pages/_menu1.scss */
-      .menu__content--1 h5 {
-        font-size: 3em; } }
-  /* line 50, ../src/pages/_menu1.scss */
+      /* line 48, ../src/pages/_menu1.scss */
+      .menu__content--1 .subtitle__footer {
+        font-size: 2em; } }
+  /* line 54, ../src/pages/_menu1.scss */
   .menu__content--1 ul {
-    font-size: 1em;
+    font-size: 1.1em;
     margin-bottom: 1em; }
     @media screen and (min-width: 28.625em) {
-      /* line 50, ../src/pages/_menu1.scss */
+      /* line 54, ../src/pages/_menu1.scss */
       .menu__content--1 ul {
         font-size: 1.5em; } }
-  /* line 57, ../src/pages/_menu1.scss */
+  @media screen and (min-width: 28.625em) {
+    /* line 61, ../src/pages/_menu1.scss */
+    .menu__content--1 .starter-dish__content,
+    .menu__content--1 .dish__content,
+    .menu__content--1 .dessert__content {
+      padding: 0 5em;
+      margin-bottom: 0; } }
+  /* line 69, ../src/pages/_menu1.scss */
   .menu__content--1 .menu__content--footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -705,15 +743,16 @@ h4 {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
-    /* line 61, ../src/pages/_menu1.scss */
+            justify-content: center;
+    margin-bottom: 1em; }
+    /* line 74, ../src/pages/_menu1.scss */
     .menu__content--1 .menu__content--footer .fa-music {
-      font-size: 2em;
+      font-size: 1.5em;
       margin-right: .7em; }
       @media screen and (min-width: 28.625em) {
-        /* line 61, ../src/pages/_menu1.scss */
+        /* line 74, ../src/pages/_menu1.scss */
         .menu__content--1 .menu__content--footer .fa-music {
-          font-size: 3em; } }
+          font-size: 2em; } }
 
 /* --------------*/
 /* ==   MENU2    */
@@ -728,7 +767,7 @@ h4 {
     .menu__content--2 {
       padding: 7em 4em 12em 4em; } }
   /* line 12, ../src/pages/_menu2.scss */
-  .menu__content--2 h3 {
+  .menu__content--2 p {
     background: -webkit-gradient(linear, left top, right top, from(#c57411), to(#6e4ccd));
     background: linear-gradient(to right, #c57411, #6e4ccd);
     -webkit-background-clip: text;
@@ -740,51 +779,64 @@ h4 {
     text-align: center; }
     @media screen and (min-width: 28.625em) {
       /* line 12, ../src/pages/_menu2.scss */
-      .menu__content--2 h3 {
+      .menu__content--2 p {
         margin-bottom: 2em;
-        font-size: 2.5em; } }
-  /* line 26, ../src/pages/_menu2.scss */
-  .menu__content--2 h4 {
+        font-size: 2em; } }
+    @media screen and (min-width: 86em) {
+      /* line 12, ../src/pages/_menu2.scss */
+      .menu__content--2 p {
+        padding: 3.4em; } }
+  /* line 29, ../src/pages/_menu2.scss */
+  .menu__content--2 header {
+    background-color: #fff5fe;
+    margin-bottom: 0; }
+    @media screen and (min-width: 58em) {
+      /* line 29, ../src/pages/_menu2.scss */
+      .menu__content--2 header {
+        margin-bottom: 3em; } }
+  /* line 36, ../src/pages/_menu2.scss */
+  .menu__content--2 .menu__header--title {
     font-size: 1.2em;
     font-weight: 500; }
     @media screen and (min-width: 28.625em) {
-      /* line 26, ../src/pages/_menu2.scss */
-      .menu__content--2 h4 {
+      /* line 36, ../src/pages/_menu2.scss */
+      .menu__content--2 .menu__header--title {
         font-size: 1.8em; } }
-  /* line 33, ../src/pages/_menu2.scss */
+  /* line 43, ../src/pages/_menu2.scss */
   .menu__content--2 ul {
     margin-bottom: 1.7em;
     font-size: 1em; }
-  /* line 37, ../src/pages/_menu2.scss */
+  /* line 47, ../src/pages/_menu2.scss */
   .menu__content--2 section:nth-of-type(1) {
     color: #c57411; }
-    /* line 39, ../src/pages/_menu2.scss */
-    .menu__content--2 section:nth-of-type(1) h4::before,
-    .menu__content--2 section:nth-of-type(1) h4::after,
+    /* line 49, ../src/pages/_menu2.scss */
+    .menu__content--2 section:nth-of-type(1) h3::before,
+    .menu__content--2 section:nth-of-type(1) h3::after,
     .menu__content--2 section:nth-of-type(1) span:hover::after {
       background: #c57411; }
-  /* line 45, ../src/pages/_menu2.scss */
+  /* line 55, ../src/pages/_menu2.scss */
   .menu__content--2 section:nth-of-type(2) {
     color: #a56999; }
-    /* line 47, ../src/pages/_menu2.scss */
-    .menu__content--2 section:nth-of-type(2) h4::before,
-    .menu__content--2 section:nth-of-type(2) h4::after,
+    /* line 57, ../src/pages/_menu2.scss */
+    .menu__content--2 section:nth-of-type(2) .menu__header--title::before,
+    .menu__content--2 section:nth-of-type(2) .menu__header--title::after,
     .menu__content--2 section:nth-of-type(2) span:hover::after {
       background: #a56999; }
-  /* line 53, ../src/pages/_menu2.scss */
+  /* line 63, ../src/pages/_menu2.scss */
   .menu__content--2 section:nth-of-type(3) {
     color: #6e4ccd; }
-    /* line 55, ../src/pages/_menu2.scss */
-    .menu__content--2 section:nth-of-type(3) h4::before,
-    .menu__content--2 section:nth-of-type(3) h4::after,
+    /* line 65, ../src/pages/_menu2.scss */
+    .menu__content--2 section:nth-of-type(3) .menu__header--title::before,
+    .menu__content--2 section:nth-of-type(3) .menu__header--title::after,
     .menu__content--2 section:nth-of-type(3) span:hover::after {
       background: #6e4ccd; }
   @media screen and (min-width: 28.625em) {
-    /* line 61, ../src/pages/_menu2.scss */
+    /* line 71, ../src/pages/_menu2.scss */
     .menu__content--2 .starter-dish__content,
     .menu__content--2 .dish__content,
     .menu__content--2 .dessert__content {
-      padding: 0 5em; } }
+      padding: 0 5em;
+      margin-bottom: 0; } }
 
 /* --------------*/
 /* ==   MENU3    */
@@ -799,7 +851,7 @@ h4 {
     .menu__content--3 {
       padding: 7em 4em 12em 4em; } }
   /* line 12, ../src/pages/_menu3.scss */
-  .menu__content--3 h3 {
+  .menu__content--3 p {
     background: -webkit-gradient(linear, left top, right top, from(#0227de), to(#249df9));
     background: linear-gradient(to right, #0227de, #249df9);
     -webkit-background-clip: text;
@@ -811,42 +863,51 @@ h4 {
     text-align: center; }
     @media screen and (min-width: 28.625em) {
       /* line 12, ../src/pages/_menu3.scss */
-      .menu__content--3 h3 {
+      .menu__content--3 p {
         margin-bottom: 1em;
-        font-size: 3.4em; } }
-  /* line 26, ../src/pages/_menu3.scss */
-  .menu__content--3 h4 {
+        font-size: 2.5em; } }
+    @media screen and (min-width: 86em) {
+      /* line 12, ../src/pages/_menu3.scss */
+      .menu__content--3 p {
+        padding: 3.4em; } }
+  /* line 29, ../src/pages/_menu3.scss */
+  .menu__content--3 header {
+    background-color: #eceeee;
+    margin: 0; }
+  /* line 33, ../src/pages/_menu3.scss */
+  .menu__content--3 .menu__header--title {
     font-size: 1.2em;
     margin-bottom: 2.6em; }
     @media screen and (min-width: 28.625em) {
-      /* line 26, ../src/pages/_menu3.scss */
-      .menu__content--3 h4 {
+      /* line 33, ../src/pages/_menu3.scss */
+      .menu__content--3 .menu__header--title {
         font-size: 1.8em; } }
-  /* line 33, ../src/pages/_menu3.scss */
+  /* line 40, ../src/pages/_menu3.scss */
   .menu__content--3 ul {
     margin-bottom: 1.7em;
     font-size: 1em; }
-  /* line 38, ../src/pages/_menu3.scss */
-  .menu__content--3 section:nth-of-type(1) h4::before,
-  .menu__content--3 section:nth-of-type(1) h4::after,
+  /* line 45, ../src/pages/_menu3.scss */
+  .menu__content--3 section:nth-of-type(1) h3::before,
+  .menu__content--3 section:nth-of-type(1) h3::after,
   .menu__content--3 section:nth-of-type(1) span:hover::after {
     background: #0227de; }
-  /* line 45, ../src/pages/_menu3.scss */
-  .menu__content--3 section:nth-of-type(2) h4::before,
-  .menu__content--3 section:nth-of-type(2) h4::after,
+  /* line 52, ../src/pages/_menu3.scss */
+  .menu__content--3 section:nth-of-type(2) .menu__header--title::before,
+  .menu__content--3 section:nth-of-type(2) .menu__header--title::after,
   .menu__content--3 section:nth-of-type(2) span:hover::after {
     background: #0671f4; }
-  /* line 52, ../src/pages/_menu3.scss */
-  .menu__content--3 section:nth-of-type(3) h4::before,
-  .menu__content--3 section:nth-of-type(3) h4::after,
+  /* line 59, ../src/pages/_menu3.scss */
+  .menu__content--3 section:nth-of-type(3) .menu__header--title::before,
+  .menu__content--3 section:nth-of-type(3) .menu__header--title::after,
   .menu__content--3 section:nth-of-type(3) span:hover::after {
     background: #249df9; }
   @media screen and (min-width: 28.625em) {
-    /* line 58, ../src/pages/_menu3.scss */
+    /* line 65, ../src/pages/_menu3.scss */
     .menu__content--3 .starter-dish__content,
     .menu__content--3 .dish__content,
     .menu__content--3 .dessert__content {
-      padding: 0 5em; } }
+      padding: 0 5em;
+      margin-bottom: 0; } }
 
 /* --------------*/
 /* ==   MENU4    */
@@ -860,7 +921,7 @@ h4 {
     .menu-content--4 {
       padding: 7em 4em 12em 4em; } }
   /* line 11, ../src/pages/_menu4.scss */
-  .menu-content--4 h3 {
+  .menu-content--4 p {
     background: -webkit-gradient(linear, left top, right top, from(#40963c), to(#bff986));
     background: linear-gradient(to right, #40963c, #bff986);
     -webkit-background-clip: text;
@@ -872,32 +933,41 @@ h4 {
     text-align: center; }
     @media screen and (min-width: 28.625em) {
       /* line 11, ../src/pages/_menu4.scss */
-      .menu-content--4 h3 {
+      .menu-content--4 p {
         margin-bottom: 1em;
-        font-size: 3.4em; } }
-  /* line 25, ../src/pages/_menu4.scss */
-  .menu-content--4 h4 {
+        font-size: 2.5em; } }
+    @media screen and (min-width: 86em) {
+      /* line 11, ../src/pages/_menu4.scss */
+      .menu-content--4 p {
+        padding: 3.4em; } }
+  /* line 28, ../src/pages/_menu4.scss */
+  .menu-content--4 header {
+    background-color: white;
+    margin: 0; }
+  /* line 32, ../src/pages/_menu4.scss */
+  .menu-content--4 .menu__header--title {
     font-size: 1.2em;
     margin-bottom: 2.6em; }
     @media screen and (min-width: 28.625em) {
-      /* line 25, ../src/pages/_menu4.scss */
-      .menu-content--4 h4 {
+      /* line 32, ../src/pages/_menu4.scss */
+      .menu-content--4 .menu__header--title {
         font-size: 1.8em; } }
-  /* line 32, ../src/pages/_menu4.scss */
+  /* line 39, ../src/pages/_menu4.scss */
   .menu-content--4 ul {
     margin-bottom: 1.7em;
     font-size: 1em; }
-  /* line 37, ../src/pages/_menu4.scss */
-  .menu-content--4 section h4::before,
-  .menu-content--4 section h4::after,
+  /* line 44, ../src/pages/_menu4.scss */
+  .menu-content--4 section .menu__header--title::before,
+  .menu-content--4 section .menu__header--title::after,
   .menu-content--4 section span:hover::after {
     background: #40963c; }
   @media screen and (min-width: 28.625em) {
-    /* line 43, ../src/pages/_menu4.scss */
+    /* line 50, ../src/pages/_menu4.scss */
     .menu-content--4 .starter-dish__content,
     .menu-content--4 .dish__content,
     .menu-content--4 .dessert__content {
-      padding: 0 5em; } }
+      padding: 0 5em;
+      margin-bottom: 0; } }
 
 /* -------------------------*/
 /* ==   MENTIONS LEGALES    */
@@ -918,7 +988,7 @@ h4 {
   margin-bottom: 3em;
   padding: 2em 1em 2em 0; }
   /* line 12, ../src/pages/_mentions.scss */
-  .mentions-content header {
+  .mentions-content .mentions-content__title {
     background-color: white;
     height: 5em;
     margin-bottom: 0em; }
