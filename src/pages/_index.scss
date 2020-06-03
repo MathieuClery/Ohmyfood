@@ -7,10 +7,11 @@
     display: flex;
     flex-direction: column;
     @include medium_device {
-        padding: 7em 0;
+        padding: 5em 0;
     }
     @include extra_large_device {
-        max-width: 90vw;
+        max-width: 85vw;
+        margin : auto;
     } 
 }
 .menu-links  {
