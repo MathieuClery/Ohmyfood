@@ -2,7 +2,7 @@
 
 ## Projet dans le cadre de la formation "Développeur web" d'OpenClassrooms
 
-Objectifs :
+__Objectifs__ :
 
 * Mettre en œuvre des effets CSS graphiques avancés
 * Assurer la cohérence graphique d'un site web
